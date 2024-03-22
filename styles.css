@@ -1548,7 +1548,9 @@ a {
 
 
 /* Слайдер */
-.slick-slider{}
+.slick-slider{
+    
+}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -1566,7 +1568,9 @@ a {
 display: flex;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide:focus, .slick-slide:active {
+    outline: none;
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
@@ -1591,6 +1595,10 @@ display: flex;
     background-color: #fff;
 }
 
+.slick-arrow:active, .slick-arrow:focus {
+    outline: none;
+}
+
 
 
 /* Стрелка влево */
@@ -1609,6 +1617,8 @@ display: flex;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+
+
 
 
 /* Стрелка не активная */
