@@ -12,9 +12,13 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
     $('.slider__body').slick();
+    $('.header__link').click(function(event){
+        $('.header__link').removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
-slider__body
+
 
 
 

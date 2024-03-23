@@ -152,7 +152,7 @@ a {
          width: 100%;
          height: 100%;
          background-color: rgb(255, 255, 255);
-         padding: 100px 0 100px 0;
+         padding: 150px 0 0 0;
          display: block;
          text-align: center;
          font-size: 40px; 
@@ -213,7 +213,7 @@ a {
     }
 
     .header__burger.active span {
-        scale: 0;
+        transform: scale(0);
     }
 
 
@@ -249,6 +249,21 @@ a {
      
 }
 
+@media (max-width:768px){
+    .header__body{
+        font-size: 30px;
+        padding-top: 120px;
+    }
+
+    .header__btn {
+        margin-top: 50px;
+    }
+
+    .header__link {
+        
+    }
+}
+
 
 /* intro */
 
@@ -269,10 +284,6 @@ a {
     width: 100%;
     
 }
-
-
-
-
 
 .intro__text {
     max-width: 430px;
@@ -394,12 +405,15 @@ a {
     .intro__img {
         max-width: 100%;
         max-height: 100%;
+        margin-top: 50px;
     }
     
 
     .intro {
         padding-top: 156px;
     }
+
+
 }
 
 @media (max-width:576px){
