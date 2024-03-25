@@ -1534,6 +1534,7 @@ a {
     background-color: rgb(35, 35, 35);
     margin: 0 auto 40px;
     position: relative;
+    overflow: hidden;
     
 }
 
@@ -1542,6 +1543,7 @@ a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
+    display: block;
 }
 
 .slider__stitle {
@@ -1670,6 +1672,7 @@ display: flex;
         padding-top: 200px;
         
     }
+    
 }
 
 
@@ -1696,8 +1699,25 @@ display: flex;
         padding-bottom: 80px;
         margin-bottom: 100px;
         padding-top: 150px;
-        
-        
+    }
+    .slick-arrow{
+        width: 63px;
+        height: 56px;
+        margin-top: -38px;
+    }
+    .slick-arrow.slick-prev{
+        left: -10px;
+        background-image: url(img/arr.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 50%;
+    }
+    .slick-arrow.slick-next{
+        right: -10px;
+        background-image: url(img/arr2.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 50%;
     }
 }
 
