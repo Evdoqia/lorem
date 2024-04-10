@@ -1534,13 +1534,13 @@ a {
     background-color: rgb(35, 35, 35);
     margin: 0 auto 40px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
 .slider__img img {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     right: 50%;
     transform: translateX(50%);
     display: block;
